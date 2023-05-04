@@ -141,6 +141,20 @@ progress{
     margin-top: 20px;
     height: 30px;
 }
+/* Gallery */
+.gallery img{
+    margin: 60px 20px 0 0;
+    width: 190px;
+    height: 220px;
+    position: static;
+    border-radius: 10px;
+    background-color: #fdbf50;
+    border: 2px #fdbf50 outset;
+}
+.gallery img:hover{
+    transition: 1s ease-in-out;
+    background-color: #00be65;
+}
 /* Footer section */
 footer{
     display: flex;
